@@ -1,1 +1,0 @@
-{"virtualbox":{"/vagrant_data":{"guestpath":"/vagrant_data","hostpath":"/home/lsilva/Dev/k3s/vagrant/shared","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/lsilva/Dev/k3s/vagrant","disabled":false,"__vagrantfile":true}}}
