@@ -4,7 +4,7 @@ sudo apt-get update && apt-get upgrade -y
 
 sudo apt install curl -y
 
-sudo apt install python3-vagrant -y
+sudo apt install python-vagrant -y
 
 # create kubecfg user
 sudo useradd -m kubecfg
