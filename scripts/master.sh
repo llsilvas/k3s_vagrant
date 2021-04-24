@@ -44,3 +44,5 @@ sudo apt-get upgrade
 sudo su - kubecfg -c "cd /vagrant/ansible;ansible-playbook main.yaml"
 
 sudo cat /etc/rancher/k3s/k3s.yaml > kubeconfig.txt
+
+kubectl -n kubernetes-dashboard describe secret admin-user-token | grep '^token' >> token.txt

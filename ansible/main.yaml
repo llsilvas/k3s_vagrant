@@ -8,8 +8,8 @@
       curl -sfL https://get.k3s.io | K3S_KUBECONFIG_MODE="644" sh -s - server --bind-address 192.168.1.110 --advertise-address 192.168.1.110
 
   - name:  install kubernetes dashboard
-    shell: > 
-      kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.1.0/aio/deploy/recommended.yaml
+    shell: 
+      kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.2.0/aio/deploy/recommended.yaml
 
   - name:  install kubernetes dashboard
     shell: > 
